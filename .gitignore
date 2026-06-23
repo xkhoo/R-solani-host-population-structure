@@ -1,0 +1,22 @@
+tmp/
+
+# BEAST / phylogenetic outputs
+*.log
+*.trees
+*.state
+*.xml
+
+# Sequence and alignment files
+*.fasta
+*.fa
+*.phy
+*.nex
+
+# R history
+*.RData
+*.Rhistory
+
+# Others
+.DS_Store
+Thumbs.db
+.Rproj.user/
