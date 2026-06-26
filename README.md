@@ -1,1 +1,1 @@
-# R-solani-host-population-structure
+# _Rhizoctonia solani_ host-associated population structure
