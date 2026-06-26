@@ -2,7 +2,7 @@ from Bio import Entrez
 import csv 
 
 # Read the accessions from a file
-accessions_file = 'accessions.txt'
+accessions_file = 'data/accessions.txt'
 with open(accessions_file) as f:
     ids = f.read().split('\n')
 
@@ -29,7 +29,7 @@ for entry in response:
         print(accession, host, sep=',')
 
 # Write output to CSV
-with open('hosts.csv', 'w', newline='') as out:
+with open('output/hosts.csv', 'w', newline='') as out:
     writer = csv.writer(out)
     writer.writerow(['accession', 'host'])
 
